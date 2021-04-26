@@ -1,0 +1,259 @@
+* {box-sizing: border-box}
+    body {font-family: Arial, Helvetica, sans-serif;
+        
+        letter-spacing: 2px;
+        }
+#firsttitle
+{  
+    text-align: center;
+    padding:20px;
+    font-family: fantasy ;
+    font-size: 2.5em;
+    font-family: 'Brush Script MT', cursive;;
+}
+#logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 147px;
+    opacity: 0.8;
+    
+    
+          
+}
+body{
+    background-image: url("unnamed.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:right bottom;
+    background-color: rgba(109, 111, 207, 0.13)}
+    
+
+
+
+
+.navbar {
+    
+  width: 100%;
+  background-color: rgba(228, 82, 77, 0.842);
+  background-repeat: no-repeat;
+  background-position: center;
+    border-radius: 10px;
+  overflow: auto;
+  }
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 33%; 
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgb(80, 90, 221);
+}
+.main{
+    float:left;
+    width: 70%;
+    margin: 50px;
+}
+p{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 1.5em;
+    
+}
+ul{
+    list-style-image:url(103-1035270_by-adminfug0posted-on-november-3-donut-png-black-and-white.png);
+    
+}
+.imgcenter{
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+div.gallery {
+  margin: 10px;
+  border: 2px solid rgb(207, 206, 206);
+  float: left;
+  width: 180px;
+  border-radius: 5px;
+  height: 250px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.gdesc {
+  padding: 15px;
+  text-align: center;
+}
+
+    .card {
+        margin-left: 20%;
+        width: 640px;
+        height: 427px;
+        background: url("french-food.jpg") no-repeat;
+        display: inline-block;
+        border-radius: 5px;
+    }
+
+    .card:hover {
+        background: url("bonappetit.jpg") no-repeat;
+        border-radius: 5px;
+    }
+.gpack{
+    margin-left:80px;
+    display: block;
+}
+p{
+    text-indent: 40px;
+}
+#testim {
+  display: block;
+  float: right;
+  width: 40%;
+
+}
+#testimr{
+  display: block;
+  float: left;
+  height: 536px;
+  width: 50%;
+  margin-top: 10%;
+}
+.but {
+  display: block;
+  padding: 8px 16px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.514);
+  text-decoration: none;
+  
+
+}
+#but:hover{
+  text-decoration: underline;
+  background-color: rgba(0, 0, 0, 0.151);
+  
+}
+* {
+  box-sizing: border-box;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  
+  
+  font-size: 18px;
+}
+#myBtn{
+  cursor: pointer;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.steps{
+  clear:both;
+   width: 70%;
+    margin-left: 10%;
+    
+}
